@@ -1,0 +1,1 @@
+window.location.replace(window.location.toString().replace(window.location.hostname, "old.reddit.com"));
