@@ -4,6 +4,7 @@
 	"version": "1.0",
 	"content_scripts": [
 		{
+			"run_at": "document_start",
 			"exclude_matches": [
 				"*://old.reddit.com/*"
 			],
